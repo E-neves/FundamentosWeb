@@ -1,34 +1,127 @@
 .font-20{     /* para mudar o tamanho da fonte */
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
 }
 
-.font-bold{ /* sobre a fonte */
-font-weight: bold;
+.font-21{     /* para mudar o tamanho da fonte */
+    font-size: 15px;
+    text-align: left;
 }
 
-#color-blue{ /* sobre a cor da fonte */
-    color:blue;
+.font-21{     /* para mudar o tamanho da fonte */
+    font-size: 15px;
+    text-align: right;
+} 
+
+.font-bold{ /* para mudar o estilo da fonte */
+font-weight: bold;
+color:#0000007e;
 }
 
 .container{ /* para organizar a imagem junto com texto  */
     display: flex;
     flex-flow: row;
-    justify-content: left;
-    align-items: center;
+    justify-content: center;
+    align-items:center;
+}
+
+.container-flex{
+    background-color: #000000c0;
+
+}
+
+.container-flex2{
+    background-color: #ff00001e;
+
 }
 
 .imagem{
     margin: 20px;
     border: 5px solid crimson;
     padding: 20px;
+
 }
+.video{
+    margin: 170px;
+    border: 5px solid crimson;
+    padding:  30px;
+   }
 
 .menu {
     display: inline;
+    padding: 15px;
+    font-size: 15px;
+    color: #000000;
 }
 
-<link rel="stylesheet" href="FundamentosWeb/assets/css/estilo.css">
+a:visited{
+    color: #000000;
+}
+
+.wh{
+    width: 450px;
+    height: 300px;
+
+}
+.tm-social{
+    width: 50px;
+    height: 50px;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
 
 
-/*  */
+.justify{
+    text-align: justify;
+}
+
+.center{
+    text-align: center;
+}
+
+.ml-50{
+    margin-left: 50px;
+}
+.color{
+    color: aliceblue;
+}
+
+.central{
+    background-size: cover;
+}
+
+.centralizar{
+    width: 750px;
+    margin:0 auto;
+}
+
+.imagem1{
+    margin: 20px;
+    border: 5px solid rgb(255, 255, 255);
+    padding: 20px;
+}
+
+    .wh1{
+        width: 150px;
+        height: 150px;
+    }
+
+    .container-flex1{
+        background-color: #ffffff;
+        padding: 30px;
+    
+    }
+
+    .video1{
+        margin: 230px;
+        border: 7px solid #ffffffbb;
+        padding:  50px;
+           
+        
+       }
